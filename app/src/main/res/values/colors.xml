@@ -2,6 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="lilas">#FFC96EFF</color>
+    <color name="lilas">#FF820AD1</color>
     <color name="cin">#FFAEAAAA</color>
+    <color name="ci">#FFE0E0E0</color>
+    <color name="gray">#FFE6E6E6</color>
 </resources>
