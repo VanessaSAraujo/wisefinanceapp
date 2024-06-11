@@ -91,6 +91,7 @@
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_margin="16dp"
+        android:id="@+id/cont"
         app:layout_constraintTop_toBottomOf="@id/button">
 
 
@@ -116,6 +117,61 @@
             android:background="@color/ci" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/dois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar conta"
+        android:fontFamily="@font/inter_bold"
+        android:textSize="16sp"
+        android:textColor="@color/lilas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cont"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/googlebtn"
+        app:layout_constraintTop_toBottomOf="@id/dois">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/buttongoogle">
+
+            <ImageView
+                android:id="@+id/googleLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_google_logo" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/termsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ao clicar em continuar, você concorda com nossos Termos de Serviço e Política de Privacidade"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inter_regular"
+        android:textSize="12sp"
+        android:padding="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/googlebtn"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
